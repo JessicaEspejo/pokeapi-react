@@ -1,0 +1,54 @@
+/*RESET*/
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+/*Variable CSS*/
+:root{
+    --color-red: #D93F3F;
+    --color-white: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Silkscreen', cursive;
+    background-image: url('/public/images/home/img/wall3.gif');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+}
+
+h1, h2, h3, h4, ul, p {
+    margin-top: 0;
+    margin-bottom: 0;
+  
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+a{
+    font-family: inherit;
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+button{
+    border: none;
+}
